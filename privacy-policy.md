@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Terms and Conditions
-permalink: /terms-and-conditions/
+title: Privacy Policy
+permalink: /privacy-policy/
 ---
-
-## Privacy Policy
 
 Jonathan Bayless built the auToDo app as
 an Ad Supported app. This SERVICE is provided by
