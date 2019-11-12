@@ -1,0 +1,44 @@
+h1 {
+  font-size: 32px;
+  font-weight: 500; }
+
+p {
+  font-size: 14px;
+  font-weight: 300; }
+
+.header {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  margin: 0 0 0 0;
+  border: 0;
+  padding: 0;
+  background: #4cc8a7;
+  height: 60vh;
+  width: 100vw; }
+  .header:after {
+    background: inherit;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; }
+  .header:after {
+    bottom: 0;
+    transform: skewY(-3deg);
+    transform-origin: 100%; }
+
+.header-title {
+  padding: 25vh 0 0 0;
+  text-align: center; }
+
+.logo {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 48px;
+  font-weight: 800;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 0.2; }
