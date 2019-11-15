@@ -851,7 +851,7 @@ p {
   border: 0;
   padding: 0;
   display: block;
-  background: linear-gradient(to bottom, #4cc8a7, #35ac8c);
+  background: linear-gradient(to bottom left, #4cc8a7, #29856d);
   height: 70vh;
   width: 110vw; }
   @supports not (clip-path: polygon(0 0, 100% 0, 100% calc(100% - 6vw), 0 100%)) {
@@ -1019,9 +1019,19 @@ p {
     max-height: 570px; } }
 .logo {
   color: rgba(255, 255, 255, 0.9);
-  font-size: 48px;
+  font-size: 64px;
   font-weight: 800;
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0;
+  margin: 0;
+  display: inline; }
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 22px;
+  font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+  display: inline; }
 
 .section-green {
   background: #4cc8a7;
@@ -1063,3 +1073,7 @@ p {
 
 .right {
   float: right; }
+
+.play-link img {
+  width: 175px;
+  padding: 1rem; }

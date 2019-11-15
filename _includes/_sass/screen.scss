@@ -24,7 +24,7 @@ p {
   border: 0;
   padding: 0;
   display: block;
-  background: linear-gradient(to bottom, $autodo-green, darken($autodo-green, 10%));
+  background: linear-gradient(to bottom left, $autodo-green, darken($autodo-green, 20%));
   height: 70vh;
   width: 110vw;
 }
@@ -34,8 +34,6 @@ p {
 }
 
 .header-title {
-  // padding: 25vh 0 0 0;
-  // text-align: left;
   text-align: center;
 }
 .screenshot {
@@ -200,9 +198,20 @@ p {
 
 .logo {
   color: rgba($color: #ffffff, $alpha: 0.9);
-  font-size: 48px;
+  font-size: 64px;
   font-weight: 800;
   font-family: 'Ubuntu', sans-serif;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+.subtitle {
+  color: rgba($color: #ffffff, $alpha: 0.9);
+  font-size: 22px;
+  font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+  display: inline;
 }
 
 .section-green {
@@ -252,6 +261,11 @@ p {
 
 .right {
   float: right;
+}
+
+.play-link img {
+  width: 175px;
+  padding: 1rem;
 }
 
 // * {
