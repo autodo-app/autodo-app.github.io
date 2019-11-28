@@ -301,7 +301,7 @@ p {
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
@@ -831,7 +831,8 @@ form {
   padding: 10% 0; }
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  background-color: #eee; }
 
 h1 {
   font-size: 32px;
@@ -850,8 +851,8 @@ p {
 .material-icons.md-36 {
   font-size: 36px; }
 
-.material-icons.md-48 {
-  font-size: 48px; }
+.material-icons.md-60 {
+  font-size: 60px; }
 
 .header {
   position: relative;

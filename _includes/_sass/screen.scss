@@ -3,9 +3,11 @@
 $autodo-green: #4cc8a7;
 $font-dark: #333;
 $link-dark: #0094c1;
+$light-background: #eee;
 
 html {
   scroll-behavior: smooth;
+  background-color: $light-background;
 }
 
 h1 {
@@ -21,7 +23,7 @@ p {
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-60 { font-size: 60px; }
 
 .header {
   @include angle-edge($angle: 2.5, $angle-position-y: 'bottom', $angle-position-x: 'right');
