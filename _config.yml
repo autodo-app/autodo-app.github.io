@@ -1,5 +1,8 @@
 include: [legal]
 # General Jekyll Config
+theme: minima
+plugins:
+    - jekyll-feed
 highlighter: rouge
 url: https://autodo.app
 lsi: false
