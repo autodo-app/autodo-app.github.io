@@ -1,6 +1,7 @@
 include: [legal]
 # General Jekyll Config
 theme: minima
+show_excerpts: true
 plugins:
     - jekyll-feed
 highlighter: rouge

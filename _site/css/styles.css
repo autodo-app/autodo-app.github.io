@@ -667,6 +667,12 @@ ol,
 form {
   margin-bottom: 2.5rem; }
 
+/**
+ * auToDo specific
+ */
+/** 
+ * Minima specific
+ */
 .highlight .c {
   color: #998;
   font-style: italic; }
@@ -815,8 +821,8 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif;
-  color: #111;
-  background-color: #fdfdfd;
+  color: #333;
+  background-color: #eee;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -884,7 +890,7 @@ a {
   a:visited {
     color: #1756a9; }
   a:hover {
-    color: #111;
+    color: #333;
     text-decoration: underline; }
   .social-media-list a:hover {
     text-decoration: none; }
@@ -895,8 +901,8 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: #828282;
-  border-left: 4px solid #e8e8e8;
+  color: #2f997c;
+  border-left: 4px solid #3bc09c;
   padding-left: 15px;
   font-size: 18px;
   letter-spacing: -1px;
@@ -910,9 +916,9 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #3bc09c;
   border-radius: 3px;
-  background-color: #eef; }
+  background-color: #cde; }
 
 code {
   padding: 1px 5px; }
@@ -926,9 +932,9 @@ pre {
     padding-left: 0; }
 
 .highlight {
-  background: #eef; }
+  background: #cde; }
   .highlighter-rouge .highlight {
-    background: #eef; }
+    background: #cde; }
 
 /**
  * Wrapper
@@ -979,27 +985,24 @@ table {
   margin-bottom: 30px;
   width: 100%;
   text-align: left;
-  color: #3f3f3f;
+  color: #616161;
   border-collapse: collapse;
-  border: 1px solid #e8e8e8; }
+  border: 1px solid #3bc09c; }
   table tr:nth-child(even) {
-    background-color: #f7f7f7; }
+    background-color: #c5ede2; }
   table th, table td {
     padding: 10px 15px; }
   table th {
-    background-color: #f0f0f0;
-    border: 1px solid #dedede; }
+    background-color: #b9eadd;
+    border: 1px solid #9ee1cf; }
   table td {
-    border: 1px solid #e8e8e8; }
+    border: 1px solid #3bc09c; }
 
 /**
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
   min-height: 55.95px;
-  line-height: 54px;
   position: relative; }
 
 .site-title {
@@ -1012,14 +1015,14 @@ table {
     .site-title {
       padding-right: 45px; } }
   .site-title, .site-title:visited {
-    color: #424242; }
+    color: #11372d; }
 
 .site-nav {
   position: absolute;
   top: 9px;
   right: 15px;
-  background-color: #fdfdfd;
-  border: 1px solid #e8e8e8;
+  background-color: #eee;
+  border: 1px solid #3bc09c;
   border-radius: 5px;
   text-align: right; }
   .site-nav .nav-trigger {
@@ -1032,7 +1035,7 @@ table {
     padding-top: 10px;
     text-align: center; }
     .site-nav .menu-icon > svg path {
-      fill: #424242; }
+      fill: #11372d; }
   .site-nav label[for="nav-trigger"] {
     display: block;
     float: right;
@@ -1047,7 +1050,7 @@ table {
     display: block;
     padding-bottom: 5px; }
   .site-nav .page-link {
-    color: #111;
+    color: #333;
     line-height: 1.5;
     display: block;
     padding: 5px 10px;
@@ -1077,7 +1080,7 @@ table {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #e8e8e8;
+  border-top: 1px solid #3bc09c;
   padding: 30px 0; }
 
 .footer-heading {
@@ -1091,7 +1094,7 @@ table {
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #828282;
+  color: #2f997c;
   margin-left: -15px; }
 
 .footer-col {
@@ -1145,7 +1148,7 @@ table {
 
 .post-meta {
   font-size: 14px;
-  color: #828282; }
+  color: #2f997c; }
 
 .post-link {
   display: block;
@@ -1198,7 +1201,7 @@ table {
     .social-media-list li a {
       display: block;
       padding: 7.5px;
-      border: 1px solid #e8e8e8; }
+      border: 1px solid #3bc09c; }
     .social-media-list li:hover .svg-icon {
       fill: currentColor; }
 
@@ -1209,169 +1212,12 @@ table {
   .one-half {
     width: -webkit-calc(50% - (30px / 2));
     width: calc(50% - (30px / 2)); } }
-.angle--top-left {
-  position: relative;
-  overflow: hidden;
-  clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 100%); }
-  @supports not (clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 100%)) {
-    .angle--top-left::before, .angle--top-left::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      z-index: 10;
-      display: block;
-      border-style: solid; }
-    .angle--top-left::before {
-      top: 0;
-      border-width: 8vw 100vw 0 0;
-      border-color: #fff transparent transparent transparent; } }
-
-.angle--top-right {
-  position: relative;
-  overflow: hidden;
-  clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 100%); }
-  @supports not (clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 100%)) {
-    .angle--top-right::before, .angle--top-right::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      z-index: 10;
-      display: block;
-      border-style: solid; }
-    .angle--top-right::before {
-      top: 0;
-      border-width: 8vw 0 0 100vw;
-      border-color: #fff transparent transparent transparent; } }
-
-.angle--bottom-left {
-  position: relative;
-  overflow: hidden;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 7vw)); }
-  @supports not (clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 7vw))) {
-    .angle--bottom-left::before, .angle--bottom-left::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      z-index: 10;
-      display: block;
-      border-style: solid; }
-    .angle--bottom-left::after {
-      bottom: 0;
-      border-width: 0 100vw 8vw 0;
-      border-color: transparent transparent #fff transparent; } }
-
-.angle--bottom-right {
-  position: relative;
-  overflow: hidden;
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 7vw), 0 100%); }
-  @supports not (clip-path: polygon(0 0, 100% 0, 100% calc(100% - 7vw), 0 100%)) {
-    .angle--bottom-right::before, .angle--bottom-right::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      z-index: 10;
-      display: block;
-      border-style: solid; }
-    .angle--bottom-right::after {
-      bottom: 0;
-      border-width: 0 0 8vw 100vw;
-      border-color: transparent transparent #fff transparent; } }
-
-.angle--both-left-left {
-  position: relative;
-  overflow: hidden;
-  clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 calc(100% - 7vw)); }
-  @supports not (clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 calc(100% - 7vw))) {
-    .angle--both-left-left::before, .angle--both-left-left::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      z-index: 10;
-      display: block;
-      border-style: solid; }
-    .angle--both-left-left::before {
-      top: 0;
-      border-width: 8vw 100vw 0 0;
-      border-color: #fff transparent transparent transparent; }
-    .angle--both-left-left::after {
-      bottom: 0;
-      border-width: 0 100vw 8vw 0;
-      border-color: transparent transparent #fff transparent; } }
-
-.angle--both-right-right {
-  position: relative;
-  overflow: hidden;
-  clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% calc(100% - 7vw), 0 100%); }
-  @supports not (clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% calc(100% - 7vw), 0 100%)) {
-    .angle--both-right-right::before, .angle--both-right-right::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      z-index: 10;
-      display: block;
-      border-style: solid; }
-    .angle--both-right-right::before {
-      top: 0;
-      border-width: 8vw 0 0 100vw;
-      border-color: #fff transparent transparent transparent; }
-    .angle--both-right-right::after {
-      bottom: 0;
-      border-width: 0 0 8vw 100vw;
-      border-color: transparent transparent #fff transparent; } }
-
-.angle--both-left-right {
-  position: relative;
-  overflow: hidden;
-  clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw), 0 100%); }
-  @supports not (clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% calc(100% - 7vw), 0 100%)) {
-    .angle--both-left-right::before, .angle--both-left-right::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      z-index: 10;
-      display: block;
-      border-style: solid; }
-    .angle--both-left-right::before {
-      top: 0;
-      border-width: 8vw 100vw 0 0;
-      border-color: #fff transparent transparent transparent; }
-    .angle--both-left-right::after {
-      bottom: 0;
-      border-width: 0 0 8vw 100vw;
-      border-color: transparent transparent #fff transparent; } }
-
-.angle--both-right-left {
-  position: relative;
-  overflow: hidden;
-  clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 calc(100% - 7vw)); }
-  @supports not (clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 calc(100% - 7vw))) {
-    .angle--both-right-left::before, .angle--both-right-left::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      z-index: 10;
-      display: block;
-      border-style: solid; }
-    .angle--both-right-left::before {
-      top: 0;
-      border-width: 8vw 0 0 100vw;
-      border-color: #fff transparent transparent transparent; }
-    .angle--both-right-left::after {
-      bottom: 0;
-      border-width: 0 100vw 8vw 0;
-      border-color: transparent transparent #fff transparent; } }
-
-.angle__content {
-  display: block;
-  width: 100%;
-  height: auto; }
-
-.angle--colour {
-  color: #fff;
-  background-color: #2196F3;
-  text-align: center;
-  padding: 10% 0; }
-
+/**
+ * auToDo specific
+ */
+/** 
+ * Minima specific
+ */
 html {
   scroll-behavior: smooth;
   background-color: #eee; }
@@ -1404,7 +1250,7 @@ p {
   padding: 0;
   display: block;
   background: linear-gradient(to bottom left, #4cc8a7, #29856d);
-  width: 100vw; }
+  width: 100%; }
 
 .header-content {
   width: 200px; }
@@ -1552,7 +1398,7 @@ p {
   overflow: hidden;
   position: fixed;
   z-index: 4;
-  width: 100vw; }
+  width: 100%; }
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -1602,3 +1448,10 @@ p {
   padding: 1rem 0 3rem; }
   #contact a {
     color: #0094c1; }
+
+#footer-transition {
+  font-size: 0; }
+  #footer-transition svg {
+    bottom: 0;
+    width: 100%;
+    height: 10vw; }

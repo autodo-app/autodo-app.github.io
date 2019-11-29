@@ -1,6 +1,21 @@
 <header class="site-header">
-
-  <div class="wrapper">
+  <div class="topnav">
+      <div class="container">
+          <div class="row">
+              <div class="one-half column"> 
+                  <a class="active logo left" href="{{ site.url }}#home">auToDo</a>
+              </div>
+              <div class="one-half column right"> 
+                  <!-- Float right causes these to display in reverse order -->
+                  <a href="{{ site.url }}#contact">Contact</a>
+                  <a href="{{ site.url }}/blog">Blog</a>
+                  <a href="{{ site.url }}#download">Download</a>
+                  <a href="{{ site.url }}#features">Features</a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
@@ -27,5 +42,5 @@
         </div>
       </nav>
     {%- endif -%}
-  </div>
+  </div> -->
 </header>
