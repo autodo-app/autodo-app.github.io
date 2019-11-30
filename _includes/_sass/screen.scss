@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'carousel';
 
 html {
   scroll-behavior: smooth;
@@ -269,4 +270,15 @@ p {
     width: 100%;
     height: 10vw;
   }
+}
+
+.vert-align {
+  display: flex;
+  align-items: center;
+}
+
+.emphasized {
+  color: $brand-color;
+  font-weight: 800;
+  font-size: 1.75rem;
 }
