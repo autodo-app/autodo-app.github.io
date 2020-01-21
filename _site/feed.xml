@@ -1,12 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-06T17:44:29-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Release 0.1.4</title><link href="http://localhost:4000/release/2019/12/01/0.1.4.html" rel="alternate" type="text/html" title="Release 0.1.4" /><published>2019-12-01T00:00:00-05:00</published><updated>2019-12-01T00:00:00-05:00</updated><id>http://localhost:4000/release/2019/12/01/0.1.4</id><content type="html" xml:base="http://localhost:4000/release/2019/12/01/0.1.4.html">&lt;p&gt;Improvements targeted at improving the sign up and sign in UX.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-21T18:28:56-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Release 0.1.7</title><link href="http://localhost:4000/release/2020/01/20/0.1.7.html" rel="alternate" type="text/html" title="Release 0.1.7" /><published>2020-01-20T00:00:00-05:00</published><updated>2020-01-20T00:00:00-05:00</updated><id>http://localhost:4000/release/2020/01/20/0.1.7</id><content type="html" xml:base="http://localhost:4000/release/2020/01/20/0.1.7.html">&lt;p&gt;Hotfix for bug found in user testing where a previously signed-in user could not access the home screen.&lt;/p&gt;</content><author><name></name></author><summary type="html">Hotfix for bug found in user testing where a previously signed-in user could not access the home screen.</summary></entry><entry><title type="html">Release 0.1.6</title><link href="http://localhost:4000/release/2020/01/19/0.1.6.html" rel="alternate" type="text/html" title="Release 0.1.6" /><published>2020-01-19T00:00:00-05:00</published><updated>2020-01-19T00:00:00-05:00</updated><id>http://localhost:4000/release/2020/01/19/0.1.6</id><content type="html" xml:base="http://localhost:4000/release/2020/01/19/0.1.6.html">&lt;p&gt;No visible changes.&lt;/p&gt;
 
-&lt;p&gt;New features:&lt;/p&gt;
+&lt;p&gt;Added the BILLING permission to the app to allow for the future addition of in-app permissions.&lt;/p&gt;</content><author><name></name></author><summary type="html">No visible changes.</summary></entry><entry><title type="html">Release 0.1.5</title><link href="http://localhost:4000/release/2020/01/18/0.1.5.html" rel="alternate" type="text/html" title="Release 0.1.5" /><published>2020-01-18T00:00:00-05:00</published><updated>2020-01-18T00:00:00-05:00</updated><id>http://localhost:4000/release/2020/01/18/0.1.5</id><content type="html" xml:base="http://localhost:4000/release/2020/01/18/0.1.5.html">&lt;p&gt;Major overhaul of the app’s business logic, so the number of noticeable bugs should be much lower than before.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;New Features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Trial option on signup, uses local phone storage with no need to create an account.
+Bugfixes:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Bugfixes:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Text overflowing on Todo Cards&lt;/li&gt;
+  &lt;li&gt;Todo items are not created for repeating tasks&lt;/li&gt;
+  &lt;li&gt;Couldn’t open the add/edit screens multiple times&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Major overhaul of the app’s business logic, so the number of noticeable bugs should be much lower than before.</summary></entry><entry><title type="html">Release 0.1.4</title><link href="http://localhost:4000/release/2019/12/01/0.1.4.html" rel="alternate" type="text/html" title="Release 0.1.4" /><published>2019-12-01T00:00:00-05:00</published><updated>2019-12-01T00:00:00-05:00</updated><id>http://localhost:4000/release/2019/12/01/0.1.4</id><content type="html" xml:base="http://localhost:4000/release/2019/12/01/0.1.4.html">&lt;p&gt;Improvements targeted at improving the sign up and sign in UX.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;New features:&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Forgot Password button&lt;/li&gt;
   &lt;li&gt;Email Verification for new accounts&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Bug fixes:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Keyboard’s “next” and “done” buttons implemented&lt;/li&gt;
   &lt;li&gt;Missing and broken form validation fixed&lt;/li&gt;
