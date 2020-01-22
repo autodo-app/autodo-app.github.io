@@ -1335,6 +1335,14 @@ p {
   font-size: 14px;
   font-weight: 300; }
 
+ul {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left; }
+
+hr {
+  margin: 2rem; }
+
 .material-icons.md-18 {
   font-size: 18px; }
 
