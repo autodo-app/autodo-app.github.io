@@ -291,3 +291,10 @@ hr {
   font-weight: 800;
   font-size: 1.75rem;
 }
+
+.filled-circle-green {
+  padding: 4px 12px;
+  margin: 1rem;
+  border-radius: 100%;
+  background-color: $autodo-green;
+}
