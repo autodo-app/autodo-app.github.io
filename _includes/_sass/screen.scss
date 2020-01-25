@@ -219,6 +219,30 @@ hr {
   font-size: 17px;
 }
 
+.topnav a.download-button {
+  font-weight: 600;
+  letter-spacing: .15rem;
+  padding: 8px 16px;
+  margin: 6px 0px;
+  position: relative;
+  z-index: 10;
+  color: $font-dark;
+  
+}
+
+.topnav a.download-button:after {
+  background-color: $autodo-green;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  right: 6px;
+  bottom: 6px;
+  z-index: -1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: $autodo-green;
@@ -298,3 +322,4 @@ hr {
   border-radius: 100%;
   background-color: $autodo-green;
 }
+
