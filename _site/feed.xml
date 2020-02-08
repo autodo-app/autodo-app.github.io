@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-03T21:24:02-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Release 0.2.0</title><link href="http://localhost:4000/release/2020/02/03/0.2.0.html" rel="alternate" type="text/html" title="Release 0.2.0" /><published>2020-02-03T00:00:00-05:00</published><updated>2020-02-03T00:00:00-05:00</updated><id>http://localhost:4000/release/2020/02/03/0.2.0</id><content type="html" xml:base="http://localhost:4000/release/2020/02/03/0.2.0.html">&lt;p&gt;First release to the public beta!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-08T11:58:03-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Retrospective on Launching the Public Beta for auToDo</title><link href="http://localhost:4000/startup-school/personal/meta/2020/02/06/beta-launch-retrospective.html" rel="alternate" type="text/html" title="Retrospective on Launching the Public Beta for auToDo" /><published>2020-02-06T00:00:00-05:00</published><updated>2020-02-06T00:00:00-05:00</updated><id>http://localhost:4000/startup-school/personal/meta/2020/02/06/beta-launch-retrospective</id><content type="html" xml:base="http://localhost:4000/startup-school/personal/meta/2020/02/06/beta-launch-retrospective.html">&lt;p&gt;Yesterday marked a very important milestone in auToDo’s journey. The app was made
+available to the public for the first time! It was released only for Android and
+as a beta release, so it isn’t quite a fully public app yet. This is still a big
+step up from the 3 users the app had before yesterday (including me) though!&lt;/p&gt;
+
+&lt;p&gt;This is the first side-project that I have launched as a public product. Launching
+a product and trying to recruit beta testers is very new to me. Overall I was happy
+with how the launch turned out, but I definitely learned a lot through the process
+that will help with future launches of auToDo features.&lt;/p&gt;
+
+&lt;h2 id=&quot;prep-for-launch&quot;&gt;Prep for Launch&lt;/h2&gt;
+
+&lt;p&gt;I put together a set of material that, to me, seemed like a good bit of content
+for promoting auToDo. I had not done nearly enough research on other products on
+Product Hunt in particular though, as my post was lacking the fun gifs and other
+animations that the other products had. I put together a &lt;a href=&quot;https://youtu.be/SeWKZL1nUQY&quot;&gt;YouTube video&lt;/a&gt;
+promoting auToDo, but that was not able to make it into the post. Lesson learned
+there – if you don’t get the YouTube link correct or forget it when posting, you
+won’t be able to go back and edit it later. Overall I would say that I spent way
+more time on the YouTube promo video than it was worth.&lt;/p&gt;
+
+&lt;p&gt;The positive feedback that I received the most on the app’s launch was that the
+screenshots were clean looking and indicated a good UI. A lot of the additional
+material surrounding a launch like the branding and background story are nice
+to have, but it seemed like people ultimately cared most about the content of
+the app. That was a great sign for me; I much prefer making a great product than
+trying to market it with smoke and mirrors.&lt;/p&gt;
+
+&lt;h2 id=&quot;launch-day&quot;&gt;Launch Day&lt;/h2&gt;
+
+&lt;p&gt;Launching on Product Hunt generated a lot of traffic to my app compared to other
+sources. I promoted the post in group chats with my friends and colleagues and
+in Slack channels for other startup founders, but the majority of my app’s
+downloads were from individuals that I did not know. I’m tentatively thinking
+that this will be a good thing for the development of my app because it will
+be good to get feedback from people who do not know me personally and want to
+try to avoid hurting my feelings with negative feedback.&lt;/p&gt;
+
+&lt;p&gt;While the majority of people that I knew did not personally sign up as beta
+testers, they did help tremendously in giving my post visibility on Product Hunt.
+I was able to hold the last spot on the front page of Product Hunt for the
+duration of my launch day, and I couldn’t have done it without the upvotes before
+the official launch and during launch day from my friends.&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-user-feedback&quot;&gt;Getting user feedback&lt;/h2&gt;
+
+&lt;p&gt;For better or worse, I made sure that there were a lot of different channels for
+giving feedback on auToDo’s beta. I’ve gotten a lot of very helpful feedback so
+far, but keeping track of the Play Store feedback and emails and Slack messages
+and in-person reviews and… has been a bit tough. Some channels have given me
+more in-depth feedback than others but I am thankful for the variety of responses.&lt;/p&gt;
+
+&lt;p&gt;Moving forward, I believe that it will be necessary to proactively reach out to
+auToDo’s users for feedback on updates. It is very convenient that Play Store
+updates are seamless but this means that there will not be the noticeable event
+like a launch that prompts feedback.&lt;/p&gt;
+
+&lt;h2 id=&quot;startupschool-update&quot;&gt;StartupSchool Update&lt;/h2&gt;
+
+&lt;p&gt;In the rush to get auToDo launched I have not written a post about weeks 2 and 3
+of the Startup School program. I think this is fitting with the intent of the
+program though, getting a product in front of users is the most important
+priority.&lt;/p&gt;
+
+&lt;p&gt;I got some very good support and feedback from the other companies in week 3’s
+group session. The other founders were also software developers so we were able
+to bond over that foundation. The other founders were congratulatory of my launch,
+which I appreciated, and gave me feedback that I needed to take that momentum
+and run with it to maintain relationships between the users and auToDo rather
+than trying to get traction exclusively through one-time promos like a launch.
+That was a perspective that I had not focused on enough, especially with launch
+so near, so it was a much needed piece of advice.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Jonathan&lt;/p&gt;</content><author><name></name></author><summary type="html">Yesterday marked a very important milestone in auToDo’s journey. The app was made available to the public for the first time! It was released only for Android and as a beta release, so it isn’t quite a fully public app yet. This is still a big step up from the 3 users the app had before yesterday (including me) though!</summary></entry><entry><title type="html">Release 0.2.0</title><link href="http://localhost:4000/release/2020/02/03/0.2.0.html" rel="alternate" type="text/html" title="Release 0.2.0" /><published>2020-02-03T00:00:00-05:00</published><updated>2020-02-03T00:00:00-05:00</updated><id>http://localhost:4000/release/2020/02/03/0.2.0</id><content type="html" xml:base="http://localhost:4000/release/2020/02/03/0.2.0.html">&lt;p&gt;First release to the public beta!&lt;/p&gt;
 
 &lt;p&gt;Added ads on the home screen and the option to pay a one time fee of $2.99 to remove the ads permanently.&lt;/p&gt;</content><author><name></name></author><summary type="html">First release to the public beta!</summary></entry><entry><title type="html">Release 0.1.9</title><link href="http://localhost:4000/release/2020/02/02/0.1.9.html" rel="alternate" type="text/html" title="Release 0.1.9" /><published>2020-02-02T00:00:00-05:00</published><updated>2020-02-02T00:00:00-05:00</updated><id>http://localhost:4000/release/2020/02/02/0.1.9</id><content type="html" xml:base="http://localhost:4000/release/2020/02/02/0.1.9.html">&lt;p&gt;Variety of bugfixes for the signup process.&lt;/p&gt;
 
@@ -79,24 +154,4 @@ Bugfixes:&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/autodo-app/autodo/issues/119&quot;&gt;Github Issue&lt;/a&gt;: now properly organizing ToDo items with the soonest upcoming item appearing first on the home screen&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;This release is available to alpha testers on the &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.jonathanbayless.autodo&quot;&gt;Google Play Store&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">auToDo is now doing a much better job of keeping statistics on your car’s refueling history. You can view these stats in the Statistics tab on the home screen, and the stats are used to make sure that notifications for your upcoming ToDo items are delivered on time.</summary></entry><entry><title type="html">Release 0.1.2</title><link href="http://localhost:4000/release/2019/11/19/0.1.2.html" rel="alternate" type="text/html" title="Release 0.1.2" /><published>2019-11-19T00:00:00-05:00</published><updated>2019-11-19T00:00:00-05:00</updated><id>http://localhost:4000/release/2019/11/19/0.1.2</id><content type="html" xml:base="http://localhost:4000/release/2019/11/19/0.1.2.html">&lt;p&gt;A variety of much needed bug-fixes. This release is available to alpha testers on the &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.jonathanbayless.autodo&quot;&gt;Google Play Store&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The following issues were closed with this release:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/autodo-app/autodo/issues/81&quot;&gt;Github Issue&lt;/a&gt;: Conditional shading/preface text for ToDo cards&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/autodo-app/autodo/issues/96&quot;&gt;Github Issue&lt;/a&gt;: No field for associating a ToDo item with a car&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/autodo-app/autodo/issues/80&quot;&gt;Github Issue&lt;/a&gt;: Set a BottomTabController background color that fits with the application&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/autodo-app/autodo/issues/106&quot;&gt;Github Issue&lt;/a&gt;: No todos are created with repeats when creating a new user account&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/autodo-app/autodo/issues/83&quot;&gt;Github Issue&lt;/a&gt;: Verify Core Functionality&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/autodo-app/autodo/issues/84&quot;&gt;Github Issue&lt;/a&gt;: Add a button for a User to delete their account&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/autodo-app/autodo/issues/90&quot;&gt;Github Issue&lt;/a&gt;: Repeating Tasks cannot be properly deleted&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/autodo-app/autodo/issues/89&quot;&gt;Github Issue&lt;/a&gt;: Associated ToDo items are not updated when their repeating interval changes&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/autodo-app/autodo/issues/87&quot;&gt;Github Issue&lt;/a&gt;: Cannot create new repeats&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/autodo-app/autodo/issues/95&quot;&gt;Github Issue&lt;/a&gt;: Required fields aren’t actually required for new refuelings/todos&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/autodo-app/autodo/issues/85&quot;&gt;Github Issue&lt;/a&gt;: New standalone ToDo item throws an exception&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/autodo-app/autodo/issues/91&quot;&gt;Github Issue&lt;/a&gt;: Unhandled exception when car mileage is greater than the value input to a new refueling&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/autodo-app/autodo/issues/88&quot;&gt;Github Issue&lt;/a&gt;: Fix styling in new ToDo screen&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/autodo-app/autodo/issues/82&quot;&gt;Github Issue&lt;/a&gt;: Make a set of test plans for basic app functionality&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/autodo-app/autodo/issues/86&quot;&gt;Github Issue&lt;/a&gt;: Cannot update the soonest upcoming ToDo item&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">A variety of much needed bug-fixes. This release is available to alpha testers on the Google Play Store.</summary></entry></feed>
+&lt;p&gt;This release is available to alpha testers on the &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.jonathanbayless.autodo&quot;&gt;Google Play Store&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">auToDo is now doing a much better job of keeping statistics on your car’s refueling history. You can view these stats in the Statistics tab on the home screen, and the stats are used to make sure that notifications for your upcoming ToDo items are delivered on time.</summary></entry></feed>
