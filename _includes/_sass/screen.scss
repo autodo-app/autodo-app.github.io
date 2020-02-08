@@ -12,8 +12,9 @@ h1 {
 }
 
 p {
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 16px;
+  line-height: 2.5rem;
+  font-weight: 200;
 }
 
 ul {
@@ -227,7 +228,7 @@ hr {
   position: relative;
   z-index: 10;
   color: $font-dark;
-  
+
 }
 
 .topnav a.download-button:after {
@@ -268,7 +269,7 @@ hr {
 }
 
 #header {
-  font-size: 0; // this is needed to remove the space after 
+  font-size: 0; // this is needed to remove the space after
                 // the divider
   svg {
     bottom: 0;
@@ -278,7 +279,7 @@ hr {
 }
 
 #download {
-  font-size: 0; // this is needed to remove the space after 
+  font-size: 0; // this is needed to remove the space after
                 // the divider
   svg {
     bottom: 0;
@@ -296,7 +297,7 @@ hr {
 }
 
 #footer-transition {
-  font-size: 0; // this is needed to remove the space after 
+  font-size: 0; // this is needed to remove the space after
                 // the divider
   svg {
     bottom: 0;
