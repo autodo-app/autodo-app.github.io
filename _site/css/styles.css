@@ -1563,6 +1563,9 @@ hr {
   width: 175px;
   padding: 1rem; }
 
+img.appstore-link {
+  width: 140px; }
+
 #header {
   font-size: 0; }
   #header svg {
