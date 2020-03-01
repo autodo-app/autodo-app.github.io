@@ -4,6 +4,7 @@
 html {
   scroll-behavior: smooth;
   background-color: $light-background;
+  font-size: 12px;
 }
 
 @media (min-width: 550px) {
@@ -299,6 +300,17 @@ h5 {
   background-color: $autodo-green;
   color: $font-dark;
 }
+
+@media(max-width: 550px) {
+  a.hide-sm {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
 .left {
   float: left;
 }

@@ -1325,7 +1325,8 @@ input[type="radio"] {
 
 html {
   scroll-behavior: smooth;
-  background-color: #eee; }
+  background-color: #eee;
+  font-size: 12px; }
 
 @media (min-width: 550px) {
   html {
@@ -1583,6 +1584,13 @@ h5 {
   background-color: #4cc8a7;
   color: #333; }
 
+@media (max-width: 550px) {
+  a.hide-sm {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    margin: 0;
+    padding: 0; } }
 .left {
   float: left; }
 
