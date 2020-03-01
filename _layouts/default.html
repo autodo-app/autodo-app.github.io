@@ -4,16 +4,16 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>auToDo</title>
-  <meta name="author" content="auToDo" />
-  <meta name="description" content="The homepage for the auToDo app." />
+
+  {% include head.html %}
+
+  <meta name="author" content="auToDo -- Car Maintenance Made Simple." />
+  <meta name="description" content="auToDo is designed to give you control over your car's maintenance. Statistics on your car and its maintenance gives you the information you need to know how your car is performing, and the ability to easily create recurring tasks means you don't have to worry about forgetting a task again." />
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
 
   <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="/favicon.png">
   <link rel="alternate" type="application/atom+xml" title="{{ site.data.theme.name }}" href="{{site.url}}/atom.xml" />
 
   <link rel="stylesheet" href="{{ site.github.url }}/css/styles.css">
