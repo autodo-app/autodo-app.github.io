@@ -670,7 +670,7 @@ form {
 /**
  * auToDo specific
  */
-/** 
+/**
  * Minima specific
  */
 .highlight .c {
@@ -1215,13 +1215,13 @@ table {
 /**
  * auToDo specific
  */
-/** 
+/**
  * Minima specific
  */
 /**
  * auToDo specific
  */
-/** 
+/**
  * Minima specific
  */
 img {
@@ -1626,12 +1626,14 @@ img.appstore-link {
     bottom: 0;
     width: 100%;
     height: 10vw; }
+  #download a {
+    color: #3333ee; }
 
 #contact {
   color: #333;
   padding: 1rem 0 3rem; }
   #contact a {
-    color: #0094c1; }
+    color: #3333ee; }
 
 #footer-transition {
   font-size: 0; }
