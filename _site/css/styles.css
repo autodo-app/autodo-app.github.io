@@ -1654,3 +1654,12 @@ img.appstore-link {
   margin: 1rem;
   border-radius: 100%;
   background-color: #4cc8a7; }
+
+.feature-screenshots {
+  position: relative;
+  overflow: visible; }
+
+.feature-screenshot {
+  position: relative;
+  overflow: visible;
+  max-width: 80%; }

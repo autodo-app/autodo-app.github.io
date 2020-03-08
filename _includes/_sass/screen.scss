@@ -394,3 +394,12 @@ img.appstore-link{
   background-color: $autodo-green;
 }
 
+.feature-screenshots {
+  position: relative;
+  overflow: visible;
+}
+.feature-screenshot {
+  position: relative;
+  overflow: visible;
+  max-width: 80%;
+}
