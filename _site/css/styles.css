@@ -1375,6 +1375,9 @@ h5 {
   font-size: 1.25rem;
   font-weight: 500; }
 
+a {
+  border-bottom: 2px solid #3333ee; }
+
 .material-icons.md-18 {
   font-size: 18px; }
 
@@ -1560,7 +1563,8 @@ h1.logo {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1rem; }
+  font-size: 1rem;
+  border-bottom: none; }
 
 .topnav a.download-button {
   font-weight: 600;
@@ -1569,7 +1573,8 @@ h1.logo {
   margin: 6px 0px;
   position: relative;
   z-index: 10;
-  color: #333; }
+  color: #333;
+  border-bottom: none; }
 
 .topnav a.download-button:after {
   background-color: #4cc8a7;
@@ -1581,7 +1586,8 @@ h1.logo {
   right: 6px;
   bottom: 6px;
   z-index: -1;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.25); }
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.25);
+  border-bottom: none; }
 
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -1609,6 +1615,9 @@ h1.logo {
 .play-link img {
   width: 175px;
   padding: 1rem; }
+
+a.appstore-link {
+  border-bottom: none; }
 
 img.appstore-link {
   width: 140px; }
