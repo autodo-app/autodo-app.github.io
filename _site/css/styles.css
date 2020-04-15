@@ -1420,11 +1420,6 @@ a:hover {
 .button {
   border-radius: 100px; }
 
-button {
-  margin-top: .5rem;
-  background-color: #eee;
-  color: #333; }
-
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
@@ -1724,3 +1719,17 @@ img.appstore-link {
 .hide {
   opacity: 0;
   transition: opacity 400ms; }
+
+#mc_embed_signup_scroll {
+  margin-top: 1rem;
+  color: #333; }
+
+label {
+  color: #eee;
+  display: inline;
+  font-size: 1rem;
+  margin: .5rem; }
+
+input[type="submit"] {
+  background-color: #eee;
+  color: #333; }
