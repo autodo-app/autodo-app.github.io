@@ -116,6 +116,12 @@ a:hover {
   border-radius: 100px;
 }
 
+button {
+  margin-top: .5rem;
+  background-color: $font-light;
+  color: $font-dark;
+}
+
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
@@ -250,6 +256,14 @@ h1.logo {
 .subtitle {
   color: rgba($color: #ffffff, $alpha: 0.9);
   font-size: 1.5rem;
+  font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+  display: inline;
+}
+
+.mailing-list {
+  color: rgba($color: #ffffff, $alpha: 0.9);
+  font-size: 1rem;
   font-weight: 400;
   font-family: 'Ubuntu', sans-serif;
   display: inline;

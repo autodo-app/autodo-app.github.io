@@ -33,7 +33,7 @@
   <meta name="twitter:site" content="@autodoapp">
   <meta name="twitter:creator" content="@autodoapp">
 
-  <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" /></head>
+  <!-- <link rel="stylesheet" href="/assets/css/style.css"> --><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" /></head>
 
 
   <meta name="author" content="auToDo -- Car Maintenance Made Simple." />
@@ -49,7 +49,15 @@
  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-  <script async src="/assets/js/cookie-popup.js"></script>
+  <script>
+    function showMailingPopUp() {
+        require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"7752bab61731f22b9456d381a","lid":"7b05f54ee4","uniqueMethods":true}) })
+        document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+    };
+    document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+</script>
+
+<script async src="/assets/js/cookie-popup.js"></script>
 <div id="cookie-banner" class="cookie-banner hide">
 	<span>By using our website, you agree to our <a href="/cookie-policy/">cookie policy.</a></span>
 	<button id="close" class="close">&times;</button>
@@ -71,7 +79,6 @@
             </div>
         </div>
     </div>
-    <!-- <div class="header angle--bottom-right section hero"> -->
     <div id="header" class="header">
         <div class="section hero">
             <div class="container">
@@ -87,6 +94,11 @@
                         <div class="play-link">
                             <a class="appstore-link" href='https://play.google.com/apps/testing/com.autodo.autodo'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
                             <a class="appstore-link" href="https://testflight.apple.com/join/enyNH94Q"><img class='appstore-link' alt='Download from the App Store' src='assets/appstorebadge.svg'/></a>
+                        </div>
+                        <div class="mailing-list">
+                            auToDo is currently in Beta.</br>
+                            Get notified when the 1.0 version is ready!</br>
+                            <button id="open-popup">Subscribe</button>
                         </div>
                     </div>
                     <div class="logo one-half column phones">

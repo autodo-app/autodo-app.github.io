@@ -1420,6 +1420,11 @@ a:hover {
 .button {
   border-radius: 100px; }
 
+button {
+  margin-top: .5rem;
+  background-color: #eee;
+  color: #333; }
+
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
@@ -1541,6 +1546,13 @@ h1.logo {
 .subtitle {
   color: rgba(255, 255, 255, 0.9);
   font-size: 1.5rem;
+  font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+  display: inline; }
+
+.mailing-list {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
   font-weight: 400;
   font-family: 'Ubuntu', sans-serif;
   display: inline; }
