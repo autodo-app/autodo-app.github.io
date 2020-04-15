@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-11T20:49:11-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Release 0.3.0</title><link href="http://localhost:4000/release/2020/02/19/0.3.0.html" rel="alternate" type="text/html" title="Release 0.3.0" /><published>2020-02-19T00:00:00-05:00</published><updated>2020-02-19T00:00:00-05:00</updated><id>http://localhost:4000/release/2020/02/19/0.3.0</id><content type="html" xml:base="http://localhost:4000/release/2020/02/19/0.3.0.html">&lt;p&gt;First release for iOS beta!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-15T09:35:46-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Release 0.3.1</title><link href="http://localhost:4000/release/2020/03/29/0.3.1.html" rel="alternate" type="text/html" title="Release 0.3.1" /><published>2020-03-29T00:00:00-04:00</published><updated>2020-03-29T00:00:00-04:00</updated><id>http://localhost:4000/release/2020/03/29/0.3.1</id><content type="html" xml:base="http://localhost:4000/release/2020/03/29/0.3.1.html">&lt;p&gt;&lt;strong&gt;New Features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Added support for metric units and non-USD currency&lt;/li&gt;
+  &lt;li&gt;Added support for languages besides English, French translation added so far&lt;/li&gt;
+  &lt;li&gt;#277: Created a proper “about” screen with auToDo info&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Bugfixes:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Improved the setup process for new users with multiple cars&lt;/li&gt;
+  &lt;li&gt;Fixed issues with local trial data storage&lt;/li&gt;
+  &lt;li&gt;Restored Statistics page functionality&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">New Features:</summary></entry><entry><title type="html">Release 0.3.0</title><link href="http://localhost:4000/release/2020/02/19/0.3.0.html" rel="alternate" type="text/html" title="Release 0.3.0" /><published>2020-02-19T00:00:00-05:00</published><updated>2020-02-19T00:00:00-05:00</updated><id>http://localhost:4000/release/2020/02/19/0.3.0</id><content type="html" xml:base="http://localhost:4000/release/2020/02/19/0.3.0.html">&lt;p&gt;First release for iOS beta!&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Bugfixes:&lt;/strong&gt;&lt;/p&gt;
 
@@ -132,18 +146,4 @@ Bugfixes:&lt;/li&gt;
   &lt;li&gt;Text overflowing on Todo Cards&lt;/li&gt;
   &lt;li&gt;Todo items are not created for repeating tasks&lt;/li&gt;
   &lt;li&gt;Couldn’t open the add/edit screens multiple times&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Major overhaul of the app’s business logic, so the number of noticeable bugs should be much lower than before.</summary></entry><entry><title type="html">Release 0.1.4</title><link href="http://localhost:4000/release/2019/12/01/0.1.4.html" rel="alternate" type="text/html" title="Release 0.1.4" /><published>2019-12-01T00:00:00-05:00</published><updated>2019-12-01T00:00:00-05:00</updated><id>http://localhost:4000/release/2019/12/01/0.1.4</id><content type="html" xml:base="http://localhost:4000/release/2019/12/01/0.1.4.html">&lt;p&gt;Improvements targeted at improving the sign up and sign in UX.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;New features:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Forgot Password button&lt;/li&gt;
-  &lt;li&gt;Email Verification for new accounts&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Keyboard’s “next” and “done” buttons implemented&lt;/li&gt;
-  &lt;li&gt;Missing and broken form validation fixed&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Improvements targeted at improving the sign up and sign in UX.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Major overhaul of the app’s business logic, so the number of noticeable bugs should be much lower than before.</summary></entry></feed>
