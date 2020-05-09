@@ -1,5 +1,5 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : auToDo                                    # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 1498684737                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -121,3 +121,4 @@ plugins:
 highlighter: rouge
 url: https://autodo.app
 lsi: false
+google_analytics_key: UA-145122049-1
