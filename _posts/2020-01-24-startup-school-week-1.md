@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: YC Startup School Week 1
 date: 2020-01-24
 categories: startup-school personal
