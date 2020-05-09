@@ -118,6 +118,9 @@ markdown: kramdown
 
 plugins:
     - jekyll-feed
+    - jekyll-redirect-from
+whitelist:
+    - jekyll-redirect-from
 highlighter: rouge
 url: https://autodo.app
 lsi: false
