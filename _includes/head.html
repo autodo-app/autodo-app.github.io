@@ -18,8 +18,26 @@
 		<meta name="apple-itunes-app" content="app-id={{ site.ios_app_id }}">
 	{% endif %}
 
+	<meta name="keywords" content="Car Maintenance, best car maintenance app, best car maintenance app 2020, car maintenance app ios, car maintenance app android, car service app, Car Maintenance Schedule, Keep Track of Car Maintenance, car task tracker, car maintenance reminders">
+
+	<!-- Twitter Card Tags -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://autodo-app">
+	<meta name="twitter:title" content="auToDo -- Car Maintenance Made Simple">
+	<meta name="twitter:description" content="auToDo is designed to give you control over your car's maintenance. Statistics on your car and its maintenance gives you the information you need to know how your car is performing, and the ability to easily create recurring tasks means you don't have to worry about forgetting a task again.">
+	<meta name="twitter:image" content="/assets/logo.png">
+	<meta name="twitter:site" content="@autodoapp">
+	<meta name="twitter:creator" content="@autodoapp">
+
+	<script async defer type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+
+	{%- feed_meta -%}
+	{%- if jekyll.environment == 'production' and site.google_analytics -%}
+		{% include google-analytics.html %}
+  	{%- endif -%}
+
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<link rel="stylesheet" href="/main.css">
-	<link rel="stylesheet" href="main.css">
-	<link rel="stylesheet" href="../main.css">
+	<link rel="stylesheet" href="{{ site.url}}/main.css">
+	<!-- <link rel="stylesheet" href="main.css"> -->
+	<!-- <link rel="stylesheet" href="../main.css"> -->
 </head>

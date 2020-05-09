@@ -1,6 +1,12 @@
 <footer>
-	{% if site.your_name %}
-	<p class="footerText">Made by {% if site.your_link %}<a href="{{ site.your_link }}">{% endif %}{{ site.your_name }}{% if site.your_link %}</a>{% endif %}{% if site.your_city %} in {{ site.your_city }}{% endif %}</p>
+	{% if site.developers %}
+	<p class="footerText">Made by 
+		{% if site.developers %}
+			<a href="{{ site.developers.first.url }}">{% endif %}{{ site.developers.first.name }}{% if site.developers %}</a>{% endif %} and 
+			{% if site.developers. %}<a href="{{ site.developers.last.url }}">{% endif %}{{ site.developers.last.name }}{% if site.developers %}</a>{% endif %}
+			{% if site.your_city %} in {{ site.your_city }}
+		{% endif %}
+	</p>
 	{% endif %}
 	<div class="footerIcons">
 

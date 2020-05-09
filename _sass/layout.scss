@@ -1,3 +1,5 @@
+$header-height: 90px;
+
 .imageWrapper {					// Sets the background image in the header area
 	height: 714px;
 	background: 
@@ -16,7 +18,7 @@
 }
 
 .headerBackground {
-	height: 115px;
+	height: $header-height;
 	background-color: rgba($header-color, $header-transparency);
 }
 
@@ -39,7 +41,7 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 876px auto auto;
+	grid-template-rows: $header-height 876px auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
@@ -49,7 +51,7 @@
 }
 
 .subPageContainer {
-	grid-template-rows: 115px auto auto auto;
+	grid-template-rows: $header-height auto auto auto;
 	background-color: #fff;
 }
 
@@ -65,7 +67,7 @@
 	.container {
 		grid-column-gap: 0px;
 		grid-template-columns: 1;
-		grid-template-rows: 115px auto auto auto auto;
+		grid-template-rows: $header-height auto auto auto auto;
 		grid-template-areas: 
 			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
@@ -101,7 +103,7 @@ header {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	height: 115px;
+	height: $header-height;
 	margin-right: 30px;
 }
 
@@ -154,7 +156,7 @@ header {
 	align-items: center;
 	justify-content: flex-end;
 
-	height: 115px;
+	height: $header-height;
 	//margin-left: 15px;
 
 	white-space: nowrap;
@@ -212,7 +214,7 @@ nav > ul li:last-child {
 nav > ul li a:link,
 nav > ul li a:visited {
 	text-decoration: none;
-	color: rgba($header-title-color, 0.6);
+	color: rgba($header-title-color, 0.8);
 }
 
 nav > ul li a:hover,
