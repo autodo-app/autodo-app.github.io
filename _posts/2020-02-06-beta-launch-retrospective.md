@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Retrospective on Launching the Public Beta for auToDo
 date: 2020-02-06
 categories: startup-school personal meta
