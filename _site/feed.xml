@@ -1,25 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-09T19:59:44-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">auToDo</title><entry><title type="html">Release 0.3.1</title><link href="http://localhost:4000/release/2020/03/29/0.3.1.html" rel="alternate" type="text/html" title="Release 0.3.1" /><published>2020-03-29T00:00:00-04:00</published><updated>2020-03-29T00:00:00-04:00</updated><id>http://localhost:4000/release/2020/03/29/0.3.1</id><content type="html" xml:base="http://localhost:4000/release/2020/03/29/0.3.1.html">&lt;p&gt;&lt;strong&gt;New Features:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Added support for metric units and non-USD currency&lt;/li&gt;
-  &lt;li&gt;Added support for languages besides English, French translation added so far&lt;/li&gt;
-  &lt;li&gt;#277: Created a proper “about” screen with auToDo info&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Bugfixes:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Improved the setup process for new users with multiple cars&lt;/li&gt;
-  &lt;li&gt;Fixed issues with local trial data storage&lt;/li&gt;
-  &lt;li&gt;Restored Statistics page functionality&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">New Features:</summary></entry><entry><title type="html">Release 0.3.0</title><link href="http://localhost:4000/release/2020/02/19/0.3.0.html" rel="alternate" type="text/html" title="Release 0.3.0" /><published>2020-02-19T00:00:00-05:00</published><updated>2020-02-19T00:00:00-05:00</updated><id>http://localhost:4000/release/2020/02/19/0.3.0</id><content type="html" xml:base="http://localhost:4000/release/2020/02/19/0.3.0.html">&lt;p&gt;First release for iOS beta!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bugfixes:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ads are properly cleared on the paid version in all screens&lt;/li&gt;
-  &lt;li&gt;fixed issue with swiping away ToDos crashing app&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">First release for iOS beta!</summary></entry><entry><title type="html">Retrospective on Launching the Public Beta for auToDo</title><link href="http://localhost:4000/startup-school/personal/meta/2020/02/06/beta-launch-retrospective.html" rel="alternate" type="text/html" title="Retrospective on Launching the Public Beta for auToDo" /><published>2020-02-06T00:00:00-05:00</published><updated>2020-02-06T00:00:00-05:00</updated><id>http://localhost:4000/startup-school/personal/meta/2020/02/06/beta-launch-retrospective</id><content type="html" xml:base="http://localhost:4000/startup-school/personal/meta/2020/02/06/beta-launch-retrospective.html">&lt;p&gt;Yesterday marked a very important milestone in auToDo’s journey. The app was made
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-10T11:32:27-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">auToDo</title><entry><title type="html">Retrospective on Launching the Public Beta for auToDo</title><link href="http://localhost:4000/startup-school/personal/meta/2020/02/06/beta-launch-retrospective.html" rel="alternate" type="text/html" title="Retrospective on Launching the Public Beta for auToDo" /><published>2020-02-06T00:00:00-05:00</published><updated>2020-02-06T00:00:00-05:00</updated><id>http://localhost:4000/startup-school/personal/meta/2020/02/06/beta-launch-retrospective</id><content type="html" xml:base="http://localhost:4000/startup-school/personal/meta/2020/02/06/beta-launch-retrospective.html">&lt;p&gt;Yesterday marked a very important milestone in auToDo’s journey. The app was made
 available to the public for the first time! It was released only for Android and
 as a beta release, so it isn’t quite a fully public app yet. This is still a big
 step up from the 3 users the app had before yesterday (including me) though!&lt;/p&gt;
@@ -94,34 +73,7 @@ so near, so it was a much needed piece of advice.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Jonathan&lt;/p&gt;</content><author><name></name></author><summary type="html">Yesterday marked a very important milestone in auToDo’s journey. The app was made available to the public for the first time! It was released only for Android and as a beta release, so it isn’t quite a fully public app yet. This is still a big step up from the 3 users the app had before yesterday (including me) though!</summary></entry><entry><title type="html">Release 0.2.0</title><link href="http://localhost:4000/release/2020/02/03/0.2.0.html" rel="alternate" type="text/html" title="Release 0.2.0" /><published>2020-02-03T00:00:00-05:00</published><updated>2020-02-03T00:00:00-05:00</updated><id>http://localhost:4000/release/2020/02/03/0.2.0</id><content type="html" xml:base="http://localhost:4000/release/2020/02/03/0.2.0.html">&lt;p&gt;First release to the public beta!&lt;/p&gt;
-
-&lt;p&gt;Added ads on the home screen and the option to pay a one time fee of $2.99 to remove the ads permanently.&lt;/p&gt;</content><author><name></name></author><summary type="html">First release to the public beta!</summary></entry><entry><title type="html">Release 0.1.9</title><link href="http://localhost:4000/release/2020/02/02/0.1.9.html" rel="alternate" type="text/html" title="Release 0.1.9" /><published>2020-02-02T00:00:00-05:00</published><updated>2020-02-02T00:00:00-05:00</updated><id>http://localhost:4000/release/2020/02/02/0.1.9</id><content type="html" xml:base="http://localhost:4000/release/2020/02/02/0.1.9.html">&lt;p&gt;Variety of bugfixes for the signup process.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bugfixes:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Restored the ability to reset account password&lt;/li&gt;
-  &lt;li&gt;Restored the ability to reach new account setup screen after email validation&lt;/li&gt;
-  &lt;li&gt;Restored the ability to switch between login and signup screens&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Variety of bugfixes for the signup process.</summary></entry><entry><title type="html">Release 0.1.8</title><link href="http://localhost:4000/release/2020/01/26/0.1.8.html" rel="alternate" type="text/html" title="Release 0.1.8" /><published>2020-01-26T00:00:00-05:00</published><updated>2020-01-26T00:00:00-05:00</updated><id>http://localhost:4000/release/2020/01/26/0.1.8</id><content type="html" xml:base="http://localhost:4000/release/2020/01/26/0.1.8.html">&lt;p&gt;Improved a variety of minor UX annoyances.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bugfixes:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Autocomplete fields won’t clear contents when selecting an item no&lt;/li&gt;
-  &lt;li&gt;Move the date picker icon so it is reachable&lt;/li&gt;
-  &lt;li&gt;Show completed ToDo items as completed, rather than “upcoming”&lt;/li&gt;
-  &lt;li&gt;Configuring multiple cars in the new user setup screen actually adds all cars&lt;/li&gt;
-  &lt;li&gt;Removed ability to bypass email verification on signup screen&lt;/li&gt;
-  &lt;li&gt;Added back the dialog for email verification&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Improvements:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Repeating tasks now show the car they are associated with&lt;/li&gt;
-  &lt;li&gt;The snackbar that displays when signing in stays until the process completes&lt;/li&gt;
-  &lt;li&gt;Users with &amp;lt; 4 cars can use a set of toggle buttons for selecting a car in the refueling add/edit screen&lt;/li&gt;
-  &lt;li&gt;Removed dead link to old repeat editor screen&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Improved a variety of minor UX annoyances.</summary></entry><entry><title type="html">YC Startup School Week 1</title><link href="http://localhost:4000/startup-school/personal/2020/01/24/startup-school-week-1.html" rel="alternate" type="text/html" title="YC Startup School Week 1" /><published>2020-01-24T00:00:00-05:00</published><updated>2020-01-24T00:00:00-05:00</updated><id>http://localhost:4000/startup-school/personal/2020/01/24/startup-school-week-1</id><content type="html" xml:base="http://localhost:4000/startup-school/personal/2020/01/24/startup-school-week-1.html">&lt;p&gt;This week I started in on Y Combinator’s Startup School program with the intention of launching auToDo soon. I have the knowledge and experience to write the app for auToDo, but that is definitely not the case for the other aspects of turning it into a successful business. Startup School’s goal is to make it easier for people like myself to navigate the confusing time of starting and running a startup, and I fully intend to make the most of it.&lt;/p&gt;
+&lt;p&gt;Jonathan&lt;/p&gt;</content><author><name></name></author><summary type="html">Yesterday marked a very important milestone in auToDo’s journey. The app was made available to the public for the first time! It was released only for Android and as a beta release, so it isn’t quite a fully public app yet. This is still a big step up from the 3 users the app had before yesterday (including me) though!</summary></entry><entry><title type="html">YC Startup School Week 1</title><link href="http://localhost:4000/startup-school/personal/2020/01/24/startup-school-week-1.html" rel="alternate" type="text/html" title="YC Startup School Week 1" /><published>2020-01-24T00:00:00-05:00</published><updated>2020-01-24T00:00:00-05:00</updated><id>http://localhost:4000/startup-school/personal/2020/01/24/startup-school-week-1</id><content type="html" xml:base="http://localhost:4000/startup-school/personal/2020/01/24/startup-school-week-1.html">&lt;p&gt;This week I started in on Y Combinator’s Startup School program with the intention of launching auToDo soon. I have the knowledge and experience to write the app for auToDo, but that is definitely not the case for the other aspects of turning it into a successful business. Startup School’s goal is to make it easier for people like myself to navigate the confusing time of starting and running a startup, and I fully intend to make the most of it.&lt;/p&gt;
 
 &lt;p&gt;Startup School is designed to encourage founders to set one or two metrics and do everything they can to improve them. Since auToDo is not yet launched, my one and only metric to track is the time left to launch. As a result, everything I have worked on this week for auToDo has been intended to speed up the timeline to making the app public. auToDo should be going public on the Google Play Store some time in the next couple days; I’ll add the release notes here per usual when the public version is out!&lt;/p&gt;
 
@@ -129,21 +81,4 @@ so near, so it was a much needed piece of advice.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Jonathan&lt;/p&gt;</content><author><name></name></author><summary type="html">This week I started in on Y Combinator’s Startup School program with the intention of launching auToDo soon. I have the knowledge and experience to write the app for auToDo, but that is definitely not the case for the other aspects of turning it into a successful business. Startup School’s goal is to make it easier for people like myself to navigate the confusing time of starting and running a startup, and I fully intend to make the most of it.</summary></entry><entry><title type="html">Release 0.1.7</title><link href="http://localhost:4000/release/2020/01/20/0.1.7.html" rel="alternate" type="text/html" title="Release 0.1.7" /><published>2020-01-20T00:00:00-05:00</published><updated>2020-01-20T00:00:00-05:00</updated><id>http://localhost:4000/release/2020/01/20/0.1.7</id><content type="html" xml:base="http://localhost:4000/release/2020/01/20/0.1.7.html">&lt;p&gt;Hotfix for bug found in user testing where a previously signed-in user could not access the home screen.&lt;/p&gt;</content><author><name></name></author><summary type="html">Hotfix for bug found in user testing where a previously signed-in user could not access the home screen.</summary></entry><entry><title type="html">Release 0.1.6</title><link href="http://localhost:4000/release/2020/01/19/0.1.6.html" rel="alternate" type="text/html" title="Release 0.1.6" /><published>2020-01-19T00:00:00-05:00</published><updated>2020-01-19T00:00:00-05:00</updated><id>http://localhost:4000/release/2020/01/19/0.1.6</id><content type="html" xml:base="http://localhost:4000/release/2020/01/19/0.1.6.html">&lt;p&gt;No visible changes.&lt;/p&gt;
-
-&lt;p&gt;Added the BILLING permission to the app to allow for the future addition of in-app permissions.&lt;/p&gt;</content><author><name></name></author><summary type="html">No visible changes.</summary></entry><entry><title type="html">Release 0.1.5</title><link href="http://localhost:4000/release/2020/01/18/0.1.5.html" rel="alternate" type="text/html" title="Release 0.1.5" /><published>2020-01-18T00:00:00-05:00</published><updated>2020-01-18T00:00:00-05:00</updated><id>http://localhost:4000/release/2020/01/18/0.1.5</id><content type="html" xml:base="http://localhost:4000/release/2020/01/18/0.1.5.html">&lt;p&gt;Major overhaul of the app’s business logic, so the number of noticeable bugs should be much lower than before.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;New Features:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Trial option on signup, uses local phone storage with no need to create an account.
-Bugfixes:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Bugfixes:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Text overflowing on Todo Cards&lt;/li&gt;
-  &lt;li&gt;Todo items are not created for repeating tasks&lt;/li&gt;
-  &lt;li&gt;Couldn’t open the add/edit screens multiple times&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Major overhaul of the app’s business logic, so the number of noticeable bugs should be much lower than before.</summary></entry></feed>
+&lt;p&gt;Jonathan&lt;/p&gt;</content><author><name></name></author><summary type="html">This week I started in on Y Combinator’s Startup School program with the intention of launching auToDo soon. I have the knowledge and experience to write the app for auToDo, but that is definitely not the case for the other aspects of turning it into a successful business. Startup School’s goal is to make it easier for people like myself to navigate the confusing time of starting and running a startup, and I fully intend to make the most of it.</summary></entry></feed>
