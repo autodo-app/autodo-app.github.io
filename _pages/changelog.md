@@ -9,7 +9,20 @@ include_in_header: true
 <br>
 
 ### `Latest`
-# Version 0.3.1 (2020-03-29)
+# Version 0.3.2 (2020-05-18)
+
+#### New Features
+
+- New UI theme and style
+- Added a "Garage" screen for editing cars
+
+#### Bugfixes
+
+- Various issues with new account creation
+- Fixed the intervals for default ToDos when using imperial units
+- Fixed creation of new ToDo for repeating ToDos
+
+### Version 0.3.1 (2020-03-29)
 
 #### New Features
 
